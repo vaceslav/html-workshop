@@ -1,2 +1,5 @@
-Step 1:
-npm init
+Steps
+- npm init
+- cretae index.html
+- npm install -g serve
+- serve
