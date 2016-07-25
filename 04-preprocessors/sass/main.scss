@@ -1,0 +1,21 @@
+$main-color: red;
+$child-color: blue;
+
+.child {
+	width: 100px;
+	height: 100px;
+	background-color: $main-color;
+	margin-top: 50px;
+}
+
+#myBox {
+	width: 200px;
+	height: 200px;
+	background-color: $main-color;
+
+	.child {
+		background-color: $child-color;
+		margin-left: 50px;
+		position: absolute;
+	}
+}

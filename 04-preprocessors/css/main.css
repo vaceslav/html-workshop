@@ -1,0 +1,14 @@
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-top: 50px; }
+
+#myBox {
+  width: 200px;
+  height: 200px;
+  background-color: red; }
+  #myBox .child {
+    background-color: blue;
+    margin-left: 50px;
+    position: absolute; }
