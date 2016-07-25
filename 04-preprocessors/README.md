@@ -14,3 +14,10 @@ Steps:
 gulp sass
 gulp sass:watch
 ```
+
+## TypeScript JavaScript Preprocessor ( https://www.typescriptlang.org/index.html )
+Steps:
+- npm install -g typescript
+```
+tsc src\main.ts
+```
