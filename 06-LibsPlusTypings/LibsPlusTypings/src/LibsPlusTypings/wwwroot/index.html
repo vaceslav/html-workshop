@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lesson 06</title>
+
+    <script type="text/javascript" src="dist/vendor/system.js"></script>
+
+    <script>
+      // set our baseURL reference path
+      SystemJS.config({
+          baseURL: '/app',
+          map: {
+              jquery: '//code.jquery.com/jquery-3.1.0.min.js'
+          }
+      });
+      System.defaultJSExtensions = true;
+
+      // loads /js/main.js
+      SystemJS.import('main');
+    </script>
+
+
+</head>
+<body>
+<h3>Hello World!</h3>
+    <input type="button" onclick="foo();" value="Click me"/>
+    <div id="mydiv" style="width: 200px; height: 200px;background-color: red;"></div>
+</body>
+</html>

@@ -243,3 +243,4 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/06-LibsPlusTypings/LibsPlusTypings/src/LibsPlusTypings/typings
