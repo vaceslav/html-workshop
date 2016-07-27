@@ -1,0 +1,30 @@
+
+<md-sidenav-layout>
+    <md-sidenav #left [opened]="true" mode="side" layout-padding>
+        <h2>Left Sidenav.</h2>
+        <br>
+        <button md-raised-button class="md-raised md-primary" #mybutton (click)="left.close()">Close</button>
+    </md-sidenav>
+
+    <md-content layout-padding>
+
+        <md-toolbar>
+            <button class="app-icon-button" (click)="left.toggle()">
+                <i class="material-icons app-toolbar-menu">menu</i>
+            </button>
+        </md-toolbar>
+
+        <main>
+            <h1>Hello from Angular 2 App with Webpack and Material</h1>
+            <input type="text"  />
+            <button md-raised-button class="md-primary">Button</button>
+            <div class="test">
+
+            </div>
+        </main>
+
+
+        <edit-user></edit-user>
+
+    </md-content>
+</md-sidenav-layout>
